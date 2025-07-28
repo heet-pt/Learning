@@ -1,7 +1,6 @@
 /*
 Task 2 first phase
 */
-
 const os = require("os");
 console.log("Operating System Info");
 console.log("Platform:", os.platform());
