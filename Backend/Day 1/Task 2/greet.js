@@ -1,9 +1,10 @@
+"use strict";
 /*
 Task 2 second phase
 */
-
-const sayHello = (name) => {
-  return `Hello ${name}`;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.sayHello = void 0;
+var sayHello = function (name) {
+    return "Hello ".concat(name);
 };
-
-module.exports = { sayHello };
+exports.sayHello = sayHello;

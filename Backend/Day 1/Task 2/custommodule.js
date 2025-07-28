@@ -1,6 +1,7 @@
+"use strict";
 /*
 Task 2 second phase
 */
-const greet = require("./greet.js");
-
-console.log(greet.sayHello("User"));
+Object.defineProperty(exports, "__esModule", { value: true });
+var greet_1 = require("./greet");
+console.log((0, greet_1.sayHello)("User"));
